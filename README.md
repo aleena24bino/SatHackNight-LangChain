@@ -12,8 +12,17 @@ Law Sphere is an AI-driven web application providing intelligent legal assistanc
 1. [Meenakshi M Kumar](https://github.com/Meenakshimkumar)
 2. [Meenakshi Pramod](https://github.com/MeenakshiPramod)
 3. [Aleena Bino](https://github.com/aleena24bino)
+
+   
 ## Link to product walkthrough
-[link to video](https://github.com/aleena24bino/SatHackNight-LangChain/assets/118379816/18f1236f-eda7-43dd-8f74-b2e31da11570)
+![Law_Sphere_1](https://github.com/aleena24bino/SatHackNight-LangChain/assets/118379816/a11fb7a8-96c4-4d63-85ff-4736609aa668)
+![Law_Sphere_2](https://github.com/aleena24bino/SatHackNight-LangChain/assets/118379816/cbf56c0c-97a3-48e8-ae76-9c8e2b568e55)
+![Law_Sphere_3](https://github.com/aleena24bino/SatHackNight-LangChain/assets/118379816/6ac26baf-3e32-4136-852b-9d49252ff050)
+![Law_Sphere_4](https://github.com/aleena24bino/SatHackNight-LangChain/assets/118379816/e6c654a8-21da-4ba8-92c7-bfad4666f802)
+![Law_Sphere_5](https://github.com/aleena24bino/SatHackNight-LangChain/assets/118379816/8e84ba78-e25c-48f1-8da1-b01cb8fcd396)
+![Law_Sphere_6](https://github.com/aleena24bino/SatHackNight-LangChain/assets/118379816/0c4a4227-4d7c-4731-9f50-6071a769e10a)
+
+
 
 ## How it Works ?
 
@@ -58,6 +67,9 @@ Law Sphere is an AI-driven web application providing intelligent legal assistanc
    
 **10. Closing the Database Connection:**
  * Connection Closure: The database connection is closed at the end of the script to ensure proper resource management.
+
+[link to video](https://github.com/aleena24bino/SatHackNight-LangChain/assets/118379816/18f1236f-eda7-43dd-8f74-b2e31da11570)
+
    
 ## Libraries used
 1. Streamlit
