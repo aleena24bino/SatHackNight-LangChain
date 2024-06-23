@@ -22,6 +22,19 @@ Long Description about project. This project do that. This project is awesome...
 3. ChatGroq
 4. os
 ## How to configure
-Instructions for setting up project
+1. Install Python.
+2. Clone this repository.
+3. Create the virtual environment.
+   ```
+    python -m venv env
+   ```
+5. Activate the virtual environment.
+   ```
+    env/Scripts/activate.bat
+   ```
+7. Install streamlit using pip.
+   ```
+    pip install streamlit
+   ```
 ## How to Run
 Instructions for running
