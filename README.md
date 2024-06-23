@@ -17,7 +17,10 @@ Long Description about project. This project do that. This project is awesome...
 1. Explaining the working of project
 2. Embed video of project demo
 ## Libraries used
-Library Name - Version
+1. Streamlit
+2. ChatPromptTemplate
+3. ChatGroq
+4. os
 ## How to configure
 Instructions for setting up project
 ## How to Run
