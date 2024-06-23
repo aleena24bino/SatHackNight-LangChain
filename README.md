@@ -13,10 +13,10 @@ Law Sphere is an AI-driven web application providing intelligent legal assistanc
 2. [Meenakshi Pramod](https://github.com/MeenakshiPramod)
 3. [Aleena Bino](https://github.com/aleena24bino)
 ## Link to product walkthrough
-[link to video](Link Here)
-
+[link to video](https://github.com/aleena24bino/SatHackNight-LangChain/assets/118379816/18f1236f-eda7-43dd-8f74-b2e31da11570)
 
 ## How it Works ?
+
 **1. Setup and Configuration:**
  * Streamlit Page Configuration: The page is configured with a custom theme including background, text, and primary colors.
  * Groq API Key: The application retrieves the Groq API key from the environment variable GROQ_API_KEY.
