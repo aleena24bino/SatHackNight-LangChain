@@ -79,5 +79,14 @@ Law Sphere is an AI-driven web application providing intelligent legal assistanc
    ```
     pip install streamlit
    ```
+8. Install langchain and groq using pip.
+   ```
+    pip install langchain-groq
+   ```
+9. Install requests using pip
+     ```
+    pip install requests
+   ```
+10. Set Groq API key and set an environment variable
 ## How to Run
 Instructions for running
