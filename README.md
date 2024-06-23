@@ -75,19 +75,19 @@ Law Sphere is an AI-driven web application providing intelligent legal assistanc
    ```
     env/Scripts/activate.bat
    ```
-7. Install streamlit using pip.
+6. Install streamlit using pip.
    ```
     pip install streamlit
    ```
-8. Install langchain and groq using pip.
+7. Install langchain and groq using pip.
    ```
     pip install langchain-groq
    ```
-9. Install requests using pip
+8. Install requests using pip
      ```
     pip install requests
    ```
-10. Set an environment variable for the Groq API Key
+9. Set an environment variable for the Groq API Key
 
     In cmd
     ```
@@ -98,17 +98,16 @@ Law Sphere is an AI-driven web application providing intelligent legal assistanc
      $env:GROQ_API_KEY = "your_api_key_here"
    ```
 
-11. Verifying the environment variable is set
+10. Verifying whether the environment variable is set
 
-     In Cmd
+    In cmd
     ```
     echo %GROQ_API_KEY%
-   ```
-
-     In Powershell
-    
     ```
-    echo $env:GROQ_API_KEY
+     In Powershell
+     ```
+     echo $env:GROQ_API_KEY
    ```
+     If set we show your original API key.
 ## How to Run
 Instructions for running
