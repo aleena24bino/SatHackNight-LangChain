@@ -97,12 +97,16 @@ Law Sphere is an AI-driven web application providing intelligent legal assistanc
      ```
      $env:GROQ_API_KEY = "your_api_key_here"
    ```
+
 11. Verifying the environment variable is set
-    In Command Prompt
+
+     In Cmd
     ```
     echo %GROQ_API_KEY%
    ```
-    In Powershell
+
+     In Powershell
+    
     ```
     echo $env:GROQ_API_KEY
    ```
