@@ -4,18 +4,61 @@
 
 
 
+# Law Sphere
+### Powered by AI, driven by Justice
+Law Sphere is an AI-driven web application providing intelligent legal assistance and document generation services. Utilizing advanced language models via the Groq API and leveraging the LangChain framework for prompt management, it ensures accessible, efficient, and reliable support through a secure and user-friendly interface built with Streamlit. Key features include user authentication, AI-powered legal advice, document generation, and query-response history tracking. The application leverages a modern, customizable theme and maintains security with SHA-256 password hashing. Designed for easy setup and deployment, Law Sphere aims to democratize legal support and streamline legal document creation for individuals and professionals alike.
 
-# Project Name
-Long Description about project. This project do that. This project is awesome...
 ## Team members
 1. [Meenakshi M Kumar](https://github.com/Meenakshimkumar)
 2. [Meenakshi Pramod](https://github.com/MeenakshiPramod)
 3. [Aleena Bino](https://github.com/aleena24bino)
 ## Link to product walkthrough
 [link to video](Link Here)
+
+
 ## How it Works ?
-1. Explaining the working of project
-2. Embed video of project demo
+**1. Setup and Configuration:**
+ * Streamlit Page Configuration: The page is configured with a custom theme including background, text, and primary colors.
+ * Groq API Key: The application retrieves the Groq API key from the environment variable GROQ_API_KEY.
+   
+**2. Database Initialization:**
+  * SQLite Connection: The application connects to an SQLite database (user_profiles.db).
+  * Tables Creation: If not already present, it creates two tables: users for user authentication data and user_profiles for storing user queries and AI-generated responses.
+    
+**3. Session State Initialization:**
+  * Session Variables: It initializes session state variables to keep track of the user's login status, user ID, and username.
+    
+**4.  User Authentication:**
+  * Signup: Users can create a new account by providing a username, email, and password. The password is hashed using SHA-256 before being stored.
+  * Login: Existing users can log in using their email and password. Upon successful login, session state variables are updated with the user's information.
+    
+**5. AI Model Initialization:**
+  * Chat Models: Two AI models are initialized using the Groq API:
+   * chat for legal advice with the llama3-70b-8192 model.
+   * llm for document generation with the llama3-8b-8192 model.
+     
+**6. Prompt Templates:**
+ * Legal Advice Prompt: A prompt template for legal advice is defined.
+ *  Document Generation Prompt: A prompt template for document generation is defined.
+     
+**7. User Interface:**
+ * Main Interface: Once logged in, users are welcomed and presented with a text area to input their queries or document content.
+ * Option Selection: Users can select either "Get Legal Advice" or "Generate Document" from a dropdown menu.
+   
+**8. Processing User Input:**
+ * Legal Advice:
+  Upon clicking "Give Advice," the user input is processed through the legal advice model.
+  The generated response is displayed and saved in the database.
+ * Document Generation:
+ Upon clicking "Generate Document," the user input is processed through the document generation model.
+ The generated document content is displayed and saved in the database.
+
+**9. Display User History:**
+ * Query and Response History: The application retrieves and displays the user's previous queries and responses from the database.
+   
+**10. Closing the Database Connection:**
+ * Connection Closure: The database connection is closed at the end of the script to ensure proper resource management.
+   
 ## Libraries used
 1. Streamlit
 2. ChatPromptTemplate
