@@ -109,5 +109,8 @@ Law Sphere is an AI-driven web application providing intelligent legal assistanc
      echo $env:GROQ_API_KEY
    ```
      If set we show your original API key.
+
 ## How to Run
-Instructions for running
+   ```
+    streamlit run ai.py
+   ```
