@@ -87,6 +87,23 @@ Law Sphere is an AI-driven web application providing intelligent legal assistanc
      ```
     pip install requests
    ```
-10. Set Groq API key and set an environment variable
+10. Set an environment variable for the Groq API Key
+    In Command Prompt
+     ```
+    set GROQ_API_KEY=your_api_key_here
+   ```
+    In powershell
+     ```
+     $env:GROQ_API_KEY = "your_api_key_here"
+   ```
+11. Verifying the environment variable is set
+    In Command Prompt
+    ```
+    echo %GROQ_API_KEY%
+   ```
+    In Powershell
+    ```
+    echo $env:GROQ_API_KEY
+   ```
 ## How to Run
 Instructions for running
