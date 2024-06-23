@@ -110,7 +110,7 @@ Law Sphere is an AI-driven web application providing intelligent legal assistanc
     ```
     If set it will show your original API key.
    
-11. If required, you ca upgrade pip(optional)
+10. If required, you can upgrade pip(optional)
     ```
     python -m pip install --upgrade pip
     ```
