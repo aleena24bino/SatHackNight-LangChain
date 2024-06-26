@@ -8,6 +8,12 @@
 ### Powered by AI, driven by Justice
 Law Sphere is an AI-driven web application providing intelligent legal assistance and document generation services. Utilizing advanced language models via the Groq API and leveraging the LangChain framework for prompt management, it ensures accessible, efficient, and reliable support through a secure and user-friendly interface built with Streamlit. Key features include user authentication, AI-powered legal advice, document generation, and query-response history tracking. The application leverages a modern, customizable theme and maintains security with SHA-256 password hashing. Designed for easy setup and deployment, Law Sphere aims to democratize legal support and streamline legal document creation for individuals and professionals alike.
 
+<img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" height="30" alt="streamlit logo"/><img width="12" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="45" alt="python logo"/><img width="12" />
+<img src="groq-logo.png" alt="groq-logo" height="40"><img width="12" />
+<img src="https://images.seeklogo.com/logo-png/52/1/langchain-logo-png_seeklogo-528369.png" alt="langchain-logo" height="40"><img width="12"/>
+
+
 ## Team members
 1. [Meenakshi M Kumar](https://github.com/Meenakshimkumar)
 2. [Meenakshi Pramod](https://github.com/MeenakshiPramod)
